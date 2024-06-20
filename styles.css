@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #e0f7fa; /* Light cyan background color */
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Dark cyan color for heading */
+}
+
+.task-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 2px solid #00796b; /* Border color matching the heading */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.task-input button {
+    padding: 10px;
+    background-color: #00796b; /* Button color matching the heading */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+.task-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.task-filters button {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #00796b; /* Button color matching the heading */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff; /* White background color */
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+li span {
+    cursor: pointer;
+}
